@@ -38,4 +38,4 @@
     > Estudo de Estrutura
         - Principio de estrutura de pagina: head, bory
     > Testes
-        - Criação de uma pagina simples usando tag como p, h1. title, img src, body, head
+        - Criação de uma pagina simples usando tag como p, h1. title, img src, body, head para servir de testes durante o periodo de aprendizagem
