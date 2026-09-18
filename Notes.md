@@ -39,3 +39,12 @@
         - Principio de estrutura de pagina: head, bory
     > Testes
         - Criação de uma pagina simples usando tag como p, h1. title, img src, body, head para servir de testes durante o periodo de aprendizagem
+        - Espaçamentos (brake)
+    > Tags de cabeçalhoos
+    > Paragrafos
+    > Formatações
+    > Elementos de Listas
+        - ul: lista desordenada
+        - ol: lista ordenada
+        - li: Item da lista
+
