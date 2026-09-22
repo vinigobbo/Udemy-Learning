@@ -53,5 +53,12 @@
         - link da web ou caminho do navegador.
         - <alt=""> para erro de carregamento da img
         - width e height para largura e altura
+    > Table
+        - <border="">
+        - tr (table row) - linha da tabela
+        - th (table header) - linha de cabeçalho
+        - td (table data) - linha de dado
+        - table com border 0 para criar tables um do lado do outro
+        
         
     
