@@ -48,4 +48,10 @@
         - ul: lista desordenada
         - ol: lista ordenada
         - li: Item da lista
+    > Imagens
+        - <img src="">
+        - link da web ou caminho do navegador.
+        - <alt=""> para erro de carregamento da img
+        - width e height para largura e altura
+        
     
