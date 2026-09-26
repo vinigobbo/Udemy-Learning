@@ -59,6 +59,9 @@
         - th (table header) - linha de cabeçalho
         - td (table data) - linha de dado
         - table com border 0 para criar tables um do lado do outro
-        
+    > Figure
+        - figure
+        - figurecaption
+
         
     

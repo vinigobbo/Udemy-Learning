@@ -3,22 +3,32 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title> Site Teste - HTML</title>
+  <title> Pagina Teste - HTML</title>
 </head>
   <body>
 
     <div class="container">
 
     <header>
-      <h1>Site teste</h1>
+      <h1 id="multi">Site teste</h1>
       <p>
         Página desenvolvida para testar e praticar habilidades de desenvolvimento em HTML durante o curso da Udemy.
       </p>
+      <nav>
+        <h3>Navegação</h3>
+        <p>
+          <a href="#li">List Item</a> |
+          <a href="#ul">Unordered List</a> |
+          <a href="#ol">Ordered List</a> |
+          <a href="#table">Tabelas</a> |
+          <a href="#links">Links</a>
+        </p>
+      </nav>
     </header>
     <main>
       <hr>
 
-      <section>
+      <section id="li">
         <h2>li - list item</h2>
         <p>
           Tag de item de lista, contida tanto em listas ordenadas como em listas desordenadas.
@@ -27,7 +37,7 @@
 
       <hr>
 
-      <section>
+      <section id="ul">
         <h2>Menu (ul - unordered list)</h2>
         <ul type="square">
           <li>
@@ -58,7 +68,7 @@
               <li>
                 CSS
                 <img src="https://tse2.mm.bing.net/th/id/OIP.GCJ_ph8gzBOy4L8kMsv8hQHaFj?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
-                  alt="CSS - icon" width="30">
+                  alt="CSS - icon" width="30"> 
               </li>
             </ul>
           </li>
@@ -68,7 +78,7 @@
 
       <hr>
 
-      <section>
+      <section id="ol">
         <h2>Menu (ol - ordered list)</h2>
         <ol type="I">
           <li>
@@ -99,7 +109,7 @@
 
       <hr>
 
-      <section>
+      <section id="table">
         <h2>Trigonometria</h2>
         <table border="0">
           <td>
@@ -175,12 +185,17 @@
             </table>
           </td>
         </table>
-        
+      </section>
+      <section id="links">
+        <hr>
+        <h2>Links</h2>
+        <p>
+          <a href="/img.html" target="_blank">Imagens</a> |
+          <a href="https://github.com/vinigobbo" target="_blank">GutHub</a>
+        </p>
       </section>
 
-      <hr>
-      
+    <footer>© 2026 Pagina teste - HTML</footer>
     </main>
-
   </body>
 </html>
