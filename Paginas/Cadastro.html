@@ -19,10 +19,14 @@
         <section>
             <h2>Cadastro</h2>
             <form>
-                <b>Nome:</b> <br>
+                <b>Nome completo:</b> <br>
                 <input type="text" name="nome" placeholder="Digite seu nome"> <br>
                 <b>Email:</b> <br>
                 <input type="text" name="email" placeholder="Digite seu email"> <br>
+                <b>Telefone:</b> <br>
+                <input type="tel" name="telefone" placeholder="Digite deu numero" size="10"> <br>
+                <b>Data de nascimento:</b> <br>
+                <input type="date" name="data" placeholder="Digite sua data de nascimento"> <br>
                 <b>Genero:</b> <br>
                 <input type="radio" name="genero">
                 Masculino
@@ -30,8 +34,13 @@
                 Feminino
                 <input type="radio" name="genero">
                 Outro <br>
+                <b>Descrição:</b> <br>
+                <input type="text" name="descrição" placeholder="Descrição" max="510" c="40"> <br>
                 <b>Senha:</b> <br>
-                <input type="password" name="senha" placeholder="Digite sua senha"> <br>                
+                <input type="password" name="senha" placeholder="Digite sua senha"> <br>
+                <b>Comfirmar Senha:</b> <br>
+                <input type="password" name="senha" placeholder="Digite sua senha"> <br>
+                <input type="submit" value="Cadastrar">    
             </form>
         </section>
     </main>
