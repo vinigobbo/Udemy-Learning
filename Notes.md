@@ -66,10 +66,21 @@
         - theader
         - tbory
         - tfooter
-
     > Figure
         - figure
         - figurcaption
+    > Formularios
+        - form
+        - input
+        - submit
+        - button
+# BLOCO DE AULAS - INTRODUÇÃO AO CSS
+    > Anatomia
+        - seletor {
+            "propriedade":"valor";
+        }
+        - Seletor - quem recebe o estilo
+        - Propriedade - o que muda
+        - valor - pra que muda
 
-        
     

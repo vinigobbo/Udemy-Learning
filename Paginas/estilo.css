@@ -1,0 +1,56 @@
+/* GLOBAL (*, body) */
+body {
+  background-color: #2a2d34;
+  color: white;
+}
+hr {
+  border: none;
+  border-top: 2px solid white;
+  margin: 10px 0;
+}
+/* TEXTO (h1, h2, p, a, b) */
+h1 {
+    color:cyan;
+    font-size: 40px;
+}
+h2 {
+    color:cyan;
+    font-size: 30px;
+}
+h3 {
+    color:darkcyan;
+}
+b {
+    color: white;
+}
+p {
+    color:white;
+}
+li {
+    color:white
+}
+a:link {
+  color: lightblue;
+}
+a:visited {
+  color:aquamarine;
+}
+a:hover {
+  color: white;
+}
+th, td {
+    padding: 5px 10px;;
+}
+/* LAYOUT (header, main, section, footer) */
+section {
+    background-color: #2A2C31;
+    padding: 0px;
+    border-radius: 15px;
+}
+/* COMPONENTES (table, form, input) */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 5%;
+}
+/* CLASSES E IDS (class, multi) */
