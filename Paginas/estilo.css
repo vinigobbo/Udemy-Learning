@@ -1,6 +1,6 @@
 /* GLOBAL (*, body) */
 body {
-  background-color: #2a2d34;
+  background-color: black;
   color: white;
 }
 hr {
@@ -41,9 +41,17 @@ a:hover {
 th, td {
     padding: 5px 10px;;
 }
+th {
+    background-color: #0f504a;
+    color:white;
+}
+caption {
+    color:cyan;
+    font-size: 35px;
+}
 /* LAYOUT (header, main, section, footer) */
 section {
-    background-color: #2A2C31;
+    background-color: #1f2124;
     padding: 0px;
     border-radius: 15px;
 }
@@ -51,6 +59,16 @@ section {
 table {
     border-collapse: collapse;
     width: 100%;
-    margin-bottom: 5%;
+    margin-bottom: 2%;
 }
+img {
+    max-width: 100%;
+    border-radius: 2%;
+    height: auto;
+}
+.foto-perfil {
+    width: 300px;
+    border-radius: 50%;
+}
+
 /* CLASSES E IDS (class, multi) */
