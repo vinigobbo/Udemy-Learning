@@ -59,9 +59,17 @@
         - th (table header) - linha de cabeçalho
         - td (table data) - linha de dado
         - table com border 0 para criar tables um do lado do outro
+        - border, wifth cellpadding (Não usar border por conta do css)
+        - colspan - expensão de coluna
+        - rowspan - estensão de linha
+        - caption - cabeçalho/titulo
+        - theader
+        - tbory
+        - tfooter
+
     > Figure
         - figure
-        - figurecaption
+        - figurcaption
 
         
     
