@@ -111,11 +111,35 @@ figure {
 .work {
     padding-bottom: 10px;
 }
+.area-login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .login {
-    padding-bottom: 10px;
+    padding: 1px 20px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.area-cadastro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cadastro {
+    padding: 1px 50px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .links {
-    width: auto;
-    height: 30px;
     border-radius: 5px;
+}
+.botao {
+    width: 150px;
+    background-color:cyan;
+    padding: 10px;
+    margin: 5px;
+    border: 2px solid white;
 }
