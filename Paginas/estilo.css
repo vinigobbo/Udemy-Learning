@@ -39,6 +39,10 @@ li {
     margin: 10px;
     font-size: 18px;
 }
+ol {
+    margin: 10px;
+    font-size: 18px;
+}
 /* LAYOUT (header, main, section, footer) */
 section {
     background-color: #1f2124;
@@ -75,18 +79,18 @@ textarea {
     border: black;
     border-radius: 8px;
 }
+figure {
+  margin: 0;
+}
+/* CLASSES E IDS */
 ::placeholder {
     color: black;
 }
-/* CLASSES E IDS */
 .tools {
   display: flex;
   flex-wrap: wrap;
   gap: 15px;
   align-items: flex-start;
-}
-figure {
-  margin: 0;
 }
 .perfil {
     display:flex;
