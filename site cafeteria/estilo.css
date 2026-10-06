@@ -1,0 +1,114 @@
+/* GLOBAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial;
+}
+body {
+    background-color:rgb(255, 232, 201);
+    margin: 10px;
+}
+/* TEXT */
+h1 {
+    color:rgb(255, 232, 201);
+    font-size: 50px;
+    font-family:Arial;
+}
+h2 {
+    color:rgba(102, 58, 0, 0.973);
+    font-size: 30px;
+    font-family:Arial;
+}
+.cat {
+    color:rgb(255, 232, 201);
+}
+a {
+    font-size: 20px;
+}
+a:link {
+  color: rgb(255, 232, 201);
+}
+a:visited {
+  color:rgb(255, 232, 201);
+}
+a:hover {
+  color: white;
+}
+p {
+    color: white;
+}
+b {
+    color: white;
+    font-size: 25px;
+}
+strong {
+    font-size: 25px;
+    color:rgba(102, 58, 0, 0.973);
+}
+
+/* LAYOUT */
+header {
+    background-color:rgba(102, 58, 0, 0.973);
+    border: 3px solid #C8873A;
+    border-radius: 15px;
+    gap: 40px;
+    padding: 20px;
+}
+footer {
+    color:  black;
+}
+
+/* COMPONENTS */
+img {
+    width: 200px;
+    height: auto;
+    border: 2px solid #C8873A;
+    border-radius: 10px;
+    background-color: white;
+}
+figcaption {
+    font-size: 12px;
+}
+form {
+    background-color:rgba(102, 58, 0, 0.973);
+    padding: 15px;
+    border: 3px solid #C8873A;
+    border-radius: 15px;
+}
+/* CLASSES E ID */
+.menu {
+    background-color:rgba(102, 58, 0, 0.973);
+    border: 3px solid #C8873A;
+    border-radius: 15px;
+    display: flex;
+    gap: 40px;
+    padding: 20px 20px 660px 20px;
+}
+.categoria {
+    flex: 1;               
+}
+.itens {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);  
+    gap: 30px;
+}
+.item {
+    background-color:rgb(255, 232, 201);
+    border: 3px solid #C8873A;
+    border-radius: 15px;
+    box-sizing: border-box;
+    padding: 20px 10px 20px 20px;
+}
+.area-contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contato {
+    padding: 1px 50px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
